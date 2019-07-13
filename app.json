@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/posts/posts",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4db"
+  },
+  "sitemapLocation": "sitemap.json"
+}

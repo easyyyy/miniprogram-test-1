@@ -1,0 +1,45 @@
+<view>
+    <swiper indicator-dots='true' autoplay='true' circular='true' interval='5000'>
+        <swiper-item>
+            <image src="/images/wx.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/images/vr.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/images/iqiyi.png"></image>
+        </swiper-item>
+    </swiper>
+    <view class="post-container">
+        <view class="post-author-date">
+            <image class="post-author-image" src="{{author_image}}"></image>
+            <text class="post-date">{{date}}</text>
+        </view>
+        <text class="post-title">{{title}}</text>
+        <image class="post-image" src="{{post_image}}"></image>
+        <text class='post-content'>{{content}}</text>
+        <view class="post-like">
+            <image src="../../images/icon/chat.png" class="post-like-image"></image>
+            <text class="post-like-font">{{collect_num}}</text>
+            <image class="post-like-image" src="../../images/icon/chat1.png"></image>
+            <text class="post-like-font">{{comment_num}}</text>
+        </view>
+
+    </view>
+    <view class="post-container">
+        <view class="post-author-date">
+            <image class="post-author-image" src="/images/avatar/2.png"></image>
+            <text class="post-date">Nov 25 2019</text>
+        </view>
+        <text class="post-title">比利·林恩的中场故事</text>
+        <image class="post-image" src="/images/post/bl.png"></image>
+        <text class='post-content'>一 “李安是一位绝不会重复自己的导演，本片将极富原创性李安众所瞩目的新片《比利林恩漫长的中场休息》，正式更名《半场无战事》。</text>
+        <view class="post-like">
+            <image src="../../images/icon/chat.png" class="post-like-image"></image>
+            <text class="post-like-font">92</text>
+            <image class="post-like-image" src="../../images/icon/chat1.png"></image>
+            <text class="post-like-font">65</text>
+        </view>
+
+    </view>
+</view>
