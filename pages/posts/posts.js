@@ -1,50 +1,64 @@
 // pages/posts/posts.js
+
+var postsData = require("../../data/posts-data.js")
+
 Page({
 
   /**
    * 页面的初始数据
    */
+  
   data: {
-
+    hello:"hello",
+    
+    postList:postsData.postList
+    
   },
+
+  // test:function(){
+  //   wx.cloud.init({
+  //     env: 'first-jslv6'
+  //   })
+  //   const testDB = wx.cloud.database()
+  //   testDB.collection('test').get({
+  //     success: function (res) {
+  //       // res.data 是一个包含集合中有权限访问的所有记录的数据，不超过 20 条
+  //       console.log(res.data)
+  //     }
+  //   })
+  // },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      // var post_content1={
-      //   date:"Sep 18 2016",
-      //   title:"正是虾肥蟹壮时",
-      //   post_image:"/images/post/crab.png",
-      //   content:"菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，壳凸红脂块块香”；",
-      //   comment_num:"112",
-      //   collect_num:"96",
-      //   author_image:"/images/avatar/1.png"
-      // }
-      // this.setData(post_content1)
-      var that = this
-      wx.request({
+    
+    // wx.clearStorage()
+    
+      // var that = this
+      // wx.request({
         
-        url: 'http://192.168.0.107:5000',
-        data:{
+      //   url: 'http://192.168.0.107:5000',
+      //   data:{
           
-        },
-        header: {
-          'content-type': 'application/json' // 默认值
-        },
-        success(res) {
-          
-          that.setData(res.data)
-          console.log(that.data)
-        }
-      })
+      //   },
+      //   header: {
+      //     'content-type': 'application/json' // 默认值
+      //   },
+      //   success(res) {
+      //     that.test()
+      //     that.setData(res.data)
+      //     console.log(that.data)
+      //   }
+      // })
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
@@ -87,5 +101,27 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  onPostTap:function(event){
+    var postId = event.currentTarget.dataset.postId
+    
+    wx.navigateTo({
+      url: 'post-detail/post-detail?postId='+postId,
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+
+  onSwiperTap: function (event) {
+    var postId = event.target.dataset.postId
+
+    wx.navigateTo({
+      url: 'post-detail/post-detail?postId=' + postId,
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
   }
 })

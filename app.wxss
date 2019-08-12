@@ -11,4 +11,6 @@
 
  text{
    font-family: "Microsoft YaHei UI";
+   font-size: 28rpx;
+     color: #666;
  }
