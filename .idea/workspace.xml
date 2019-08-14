@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cade7aa2-f99b-4525-bee8-84c784f94cc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/movies/movie-list-template/movie-list-template.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/movies/movie-list-template/movie-list-template.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/posts-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ezha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/movies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/movies.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/movies.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/stars-template/stars-template.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/movies/stars-template/stars-template.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post-detail/post-detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post-detail/post-detail.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post-item/post-item-template.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post-item/post-item-template.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/posts.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/posts.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/posts.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/posts.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,10 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxml">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movie-list-template/movie-list-template.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+            <state relative-caret-position="429">
+              <caret line="13" column="77" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -49,33 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="65" column="6" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="65" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="2145">
+              <caret line="65" column="6" selection-start-line="41" selection-start-column="4" selection-end-line="65" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -83,31 +69,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="297">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="99">
+              <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="231">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -136,9 +153,12 @@
         <option value="$PROJECT_DIR$/pages/movies/movie-list-template/movie-list-template.wxml" />
         <option value="$PROJECT_DIR$/utils/util.js" />
         <option value="$PROJECT_DIR$/pages/movies/movies.js" />
+        <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss" />
+        <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
-        <option value="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml" />
       </list>
     </option>
   </component>
@@ -259,12 +279,28 @@
       <workItem from="1564972932350" duration="1177000" />
       <workItem from="1565250854597" duration="75000" />
       <workItem from="1565328737404" duration="169000" />
-      <workItem from="1565596161819" duration="3157000" />
+      <workItem from="1565596161819" duration="5739000" />
+      <workItem from="1565742674311" duration="1320000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1565600293238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565600293238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2">
+      <created>1565600605873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565600605873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25162000" />
+    <option name="totallyTimeSpent" value="29064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="860" y="0" width="1067" height="1087" extended-state="0" />
@@ -281,9 +317,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32901832" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,6 +327,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/icon/xx.png">
@@ -328,13 +368,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/images/ezha.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/stars-template/stars-template.wxss">
       <provider selected="true" editor-type-id="text-editor">
@@ -408,34 +441,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie-list-template/movie-list-template.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/posts/posts.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/stars-template/stars-template.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/posts/post-detail/post-detail.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -456,34 +468,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/pages/movies/stars-template/stars-template.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="165">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="65" column="6" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="65" selection-end-column="6" />
+        <state relative-caret-position="2145">
+          <caret line="65" column="6" selection-start-line="41" selection-start-column="4" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="297">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-template/movie-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-list-template/movie-list-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid-template/movie-grid-template.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="99">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
         </state>
       </provider>
     </entry>
