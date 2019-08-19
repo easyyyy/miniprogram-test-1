@@ -69,14 +69,21 @@ Page({
 
     this.setData(readyData);
     this.data.totalCount += 20;
+    wx.hideNavigationBarLoading();
   },
 
   onScrollLower:function(){
     console.log("加载更多")
-    var nextUrl = this.data.requestUrl + "?start=" +this.data.totalCount + "&count=20";
-    util.http(nextUrl,this.processMovieData)
+    var nextUrl = this.data.requestUrl + "&start=" +this.data.totalCount + "&count=20";
+    util.http(nextUrl,this.processMovieData);
+    wx.showNavigationBarLoading();
   },
-
+  clickMovie:function(event){
+    var movieId = event.currentTarget.dataset.movieId;
+    wx.navigateTo({
+      url: "../movie-detail/movie-detail?id=" + movieId
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -122,7 +129,9 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    var nextUrl = this.data.requestUrl + "&start=" +this.data.totalCount + "&count=20";
+    util.http(nextUrl,this.processMovieData);
+    wx.showNavigationBarLoading();
   },
 
   /**

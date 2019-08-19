@@ -1,8 +1,16 @@
 <import src="movie-list-template/movie-list-template.wxml"></import>
-
-<view class="container">
-
+<import src="movie-grid-template/movie-grid-template.wxml"></import>
+<view class="search">
+    <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+    <input type="text" placeholder="肖申克的救赎" placeholder-class="placeholder" bindfocus="OnBindFocus" bindconfirm="OnBindChange" />
+    <image wx:if="{{searchPanelShow}}" src="/images/icon/xx.png" class="xx-img" bindtap="onCancelImgTap"></image>
+</view>
+<view class="container" wx:if="{{containerShow}}">
     <template is="movieListTemplate" data="{{...inTheaters}}"></template>
     <template is="movieListTemplate" data="{{...comingSoon}}"></template>
     <template is="movieListTemplate" data="{{...top250}}"></template>
+</view>
+
+<view class="search-panel" wx:if="{{searchPanelShow}}}">
+    <template is="movieGridTemplate"></template>
 </view>

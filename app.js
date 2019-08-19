@@ -35,8 +35,11 @@ App({
   },
   globalData: {
     userInfo: null,
-    inTheatersUrl:"https://douban.uieee.com/v2/movie/in_theaters",
-    comingSoonUrl:"https://douban.uieee.com/v2/movie/coming_soon",
-    top250Url:"https://douban.uieee.com/v2/movie/top250"
+    apiKey:"0df993c66c0c636e29ecbb5344252a4a",
+    doubanUieeUrl:"https://douban.uieee.com/v2/movie/",
+    baseDoubanUrl:"http://api.douban.com/v2/movie/",
+    inTheatersUrl:"http://api.douban.com/v2/movie/in_theaters?apikey=0df993c66c0c636e29ecbb5344252a4a",
+    comingSoonUrl:"http://api.douban.com/v2/movie/coming_soon?apikey=0df993c66c0c636e29ecbb5344252a4a",
+    top250Url:"http://api.douban.com/v2/movie/top250?apikey=0df993c66c0c636e29ecbb5344252a4a"
   }
 })

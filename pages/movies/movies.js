@@ -7,7 +7,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      containerShow:true,
+      searchPanelShow:false
   },
 
     onMoreTap:function(event){
@@ -65,6 +66,31 @@ Page({
         this.setData(readyData);
     },
 
+    OnBindFocus:function(){
+      this.setData({
+          containerShow:false,
+          searchPanelShow:true
+      })
+    },
+
+    onCancelImgTap:function(){
+        this.setData({
+            containerShow:true,
+            searchPanelShow:false
+        })
+    },
+
+    OnBindChange:function(event){
+      var text = event.detail.value;
+      var searchUrl = app.globalData.baseDoubanUrl+"search?api_key="+app.globalData.apiKey+"q="+text;
+    },
+
+    clickMovie:function(event){
+        var movieId = event.currentTarget.dataset.movieId;
+        wx.navigateTo({
+            url:"movie-detail/movie-detail?id="+movieId
+        })
+    },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
